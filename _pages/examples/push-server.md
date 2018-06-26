@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+permalink: /examples/push-server/
 ---
 
 # Writing a PUSH server

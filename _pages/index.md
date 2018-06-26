@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: single
+permalink: /
 ---
 
 # libmicrohttpd-http2

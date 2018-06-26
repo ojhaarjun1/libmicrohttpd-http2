@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /writing-a-server/
 ---
 
 # Writing a server
