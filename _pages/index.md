@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: home
 permalink: /
+title: libmicrohttpd-http2
 ---
-
-# libmicrohttpd-http2
 
 An HTTP/2 implementation for GNU libmicrohttpd.
 

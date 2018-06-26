@@ -1,9 +1,8 @@
 ---
 layout: single
 permalink: /push-server/
+title: Writing a PUSH server
 ---
-
-# Writing a PUSH server
 
 To start a server, you need to create it first. Use:
 

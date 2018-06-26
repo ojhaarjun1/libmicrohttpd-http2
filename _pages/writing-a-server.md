@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: posts
 permalink: /writing-a-server/
+title: Writing a server
 ---
 
-# Writing a server
 
 To start a server, you need to create it first. Use:
 
