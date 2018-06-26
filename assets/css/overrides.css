@@ -318,3 +318,9 @@ td.hljs-ln-code {
 .wy-nav-content p {
   line-height: 30px;
 }
+footer {
+  font-size: 16px;
+}
+h1 {
+  font-size: 1.5em;
+}
