@@ -1,5 +1,5 @@
 ---
-title: REST server
+title: Writing a REST API server
 ---
 
 To start a server, you need to create it first. Use:
