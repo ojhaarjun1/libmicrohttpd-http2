@@ -1,7 +1,6 @@
 ---
-layout: home
-permalink: /
 title: libmicrohttpd-http2
+permalink: /
 ---
 
 An HTTP/2 implementation for GNU libmicrohttpd.
