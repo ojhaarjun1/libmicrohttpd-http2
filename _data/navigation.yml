@@ -1,12 +1,10 @@
-main:
+_main:
   - title: "Examples: PUSH Server"
     url: /examples/push-server/
-  - title: "PUSH Server"
-    url: /push-server/
-  - title: "Index"
-    url: /index/
   - title: "Writing a server"
     url: /writing-a-server/
+  - title: "PUSH Server"
+    url: /push-server/
   - title: "External Link"
     url: https://google.com
 
@@ -22,18 +20,14 @@ docs:
       - title: "Upgrading"
         url: /docs/upgrading/
 
-  - title: Customization
+  - title: Examples
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: "Writing a server"
+        url: /writing-a-server/
+      - title: "PUSH server"
+        url: /push-server/
+      - title: "REST API server"
+        url: /rest-server/
 
   - title: Content
     children:
