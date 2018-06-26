@@ -6,12 +6,9 @@ baseurl: "/libmicrohttpd-http2"
 repository: "maru/libmicrohttpd-http2"
 
 show_downloads: true
-highlighter: none
+highlighter: rouge
 markdown: kramdown
-kramdown:
-   syntax_highlighter_opts:
-      disable : true
-      
+
 theme: jekyll-theme-minimal
 logo: /assets/img/logo.jpg
 
