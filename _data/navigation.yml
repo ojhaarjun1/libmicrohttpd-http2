@@ -1,14 +1,4 @@
-_main:
-  - title: "Examples: PUSH Server"
-    url: /examples/push-server/
-  - title: "Writing a server"
-    url: /writing-a-server/
-  - title: "PUSH Server"
-    url: /push-server/
-  - title: "External Link"
-    url: https://google.com
-
-docs:
+navbar:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
@@ -20,31 +10,16 @@ docs:
       - title: "Upgrading"
         url: /docs/upgrading/
 
-  - title: Examples
+  - title: Writing a server
     children:
-      - title: "Writing a server"
+      - title: "Serving static files"
         url: /writing-a-server/
-      - title: "PUSH server"
-        url: /push-server/
-      - title: "REST API server"
+      - title: "REST API"
         url: /rest-server/
+      - title: "Querying a DB"
+        url: /db-server/
+      - title: "HTTP/2 Push"
+        url: /push-server/
 
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+  - title: Questions and Answers
+  - url: https://github.com/maru/libmicrohttpd-http2/issues?q=label%3Aquestion-answered
