@@ -17,6 +17,7 @@ breadcrumbs: true
 search: true
 search_full_content: true
 include: ["_pages"]
+permalink: /:title/
 
 defaults:
   # _pages
