@@ -10,5 +10,5 @@ show_downloads: true
 highlighter: pygments
 markdown: kramdown
 
-theme: minimal-mistakes-jekyll
-
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
