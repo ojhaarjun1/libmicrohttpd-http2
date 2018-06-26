@@ -5,13 +5,12 @@ url: "https://maru.github.io"
 baseurl: "/libmicrohttpd-http2"
 repository: "maru/libmicrohttpd-http2"
 
-logo: /assets/img/logo.jpg
 show_downloads: true
 highlighter: rouge
 markdown: kramdown
 
-#theme: jekyll-theme-minimal
-remote_theme: "mmistakes/minimal-mistakes"
+theme: jekyll-theme-minimal
+logo: /assets/img/logo.jpg
 
 # breadcrumbs: false
 # search: true

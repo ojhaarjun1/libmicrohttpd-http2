@@ -22,4 +22,4 @@ navbar:
         url: /push-server/
 
   - title: Questions and Answers
-  - url: https://github.com/maru/libmicrohttpd-http2/issues?q=label%3Aquestion-answered
+    url: https://github.com/maru/libmicrohttpd-http2/issues?q=label%3Aquestion-answered
