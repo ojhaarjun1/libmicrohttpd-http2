@@ -7,7 +7,7 @@ logo: /assets/img/logo.jpg
 show_downloads: true
 #theme: jekyll-theme-minimal
 
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 
 #theme: minimal-mistakes-jekyll
