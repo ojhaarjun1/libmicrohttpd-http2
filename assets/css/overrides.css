@@ -315,3 +315,6 @@ td.hljs-ln-code {
   border-right-width: 0px;
 }
 /* Armeria branding ends. */
+.wy-nav-content p {
+  line-height: 30px;
+}
