@@ -1,0 +1,12 @@
+name: libmicrohttpd-http2
+title: libmicrohttpd-HTTP2
+description: An HTTP/2 implementation for GNU libmicrohttpd
+url: https://maru.github.io/libmicrohttpd-http2/
+
+logo: /assets/img/logo.jpg
+show_downloads: true
+theme: jekyll-theme-minimal
+
+permalink: /:title.html
+gems: [jekyll-paginate]
+paginate: 50
