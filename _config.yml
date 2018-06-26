@@ -26,6 +26,5 @@ defaults:
     values:
       layout: single
       author_profile: false
-      permalink: pretty
       sidebar:
         nav: "docs"
