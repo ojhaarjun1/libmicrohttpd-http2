@@ -6,3 +6,7 @@ url: https://maru.github.io/libmicrohttpd-http2/
 logo: /assets/img/logo.jpg
 show_downloads: true
 theme: jekyll-theme-minimal
+
+highlighter: pygments
+markdown: kramdown
+
