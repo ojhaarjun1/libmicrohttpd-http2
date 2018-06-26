@@ -10,8 +10,8 @@ show_downloads: true
 highlighter: rouge
 markdown: kramdown
 
-#theme: jekyll-theme-minimal
-remote_theme: "mmistakes/minimal-mistakes"
+theme: jekyll-theme-minimal
+# remote_theme: "mmistakes/minimal-mistakes"
 
 # breadcrumbs: false
 # search: true
