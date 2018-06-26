@@ -1,7 +1,5 @@
 ---
-layout: single
-permalink: /rest-server/
-title: Writing a REST API server
+title: REST server
 ---
 
 To start a server, you need to create it first. Use:

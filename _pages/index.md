@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 permalink: /
 title: libmicrohttpd-http2
 ---

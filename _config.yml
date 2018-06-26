@@ -17,6 +17,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 # search: true
 # search_full_content: true
 include: ["_pages"]
+permalink: /:slug/
 
 defaults:
   # _pages
