@@ -1,4 +1,5 @@
 ---
+permalink: /push-server/
 title: Writing a PUSH server
 ---
 

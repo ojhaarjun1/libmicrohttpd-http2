@@ -1,4 +1,5 @@
 ---
+permalink: /rest-server/
 title: Writing a REST API server
 ---
 

@@ -1,4 +1,5 @@
 ---
+permalink: /writing-a-server/
 title: Writing a server
 ---
 
