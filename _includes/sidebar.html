@@ -26,7 +26,7 @@
 
             {% if nav.children != null %}
               {% for child in nav.children %}
-                <a href="{{ child_url | relative_url }}" class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">{{ child.title }}</a>
+                <a href="{{ child.url | relative_url }}" class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">{{ child.title }}</a>
               {% endfor %}
             {% endif %}
         {% endfor %}
