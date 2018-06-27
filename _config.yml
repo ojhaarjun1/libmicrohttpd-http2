@@ -10,7 +10,7 @@ title:            libmicrohttpd-HTTP2
 tagline:          'A Jekyll theme'
 description:      'An HTTP/2 implementation for GNU libmicrohttpd'
 url:              'https://maru.github.io'
-baseurl:          '/libmicrohttpd-http2'
+baseurl:          '/libmicrohttpd-http2/'
 repository:       'maru/libmicrohttpd-http2'
 
 author:
