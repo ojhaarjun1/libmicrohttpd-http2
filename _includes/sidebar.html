@@ -21,7 +21,7 @@
             {% if nav.url %}
               <a class="sidebar-nav-item" href="{{ nav_url | relative_url }}">{{ nav.title }}</a>
             {% else %}
-              <span class="sidebar-nav-item">{{ nav.title | upcase }}</span>
+              <span class="sidebar-nav-item sidebar-nav-title">{{ nav.title | upcase }}</span>
             {% endif %}
 
             {% if nav.children != null %}
