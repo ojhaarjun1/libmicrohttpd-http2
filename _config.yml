@@ -19,7 +19,7 @@ author:
   url:            https://twitter.com/maruberezin
 
 
-logo: /assets/img/logo.jpg
+logo: '/static/img/logo.jpg'
 
 # breadcrumbs: false
 # search: true
