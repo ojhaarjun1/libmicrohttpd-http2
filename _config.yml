@@ -12,6 +12,7 @@ description:      'An HTTP/2 implementation for GNU libmicrohttpd'
 url:              'https://maru.github.io'
 baseurl:          '/libmicrohttpd-http2/'
 repository:       'maru/libmicrohttpd-http2'
+version:          0.1.0
 
 author:
   name:           'Maru Berezin'
