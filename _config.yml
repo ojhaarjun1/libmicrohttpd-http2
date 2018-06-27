@@ -9,8 +9,7 @@ show_downloads: true
 highlighter: rouge
 markdown: kramdown
 
-theme: jekyll-theme-minimal
-logo: /assets/img/logo.jpg
+logo: /static/img/logo.jpg
 
 # breadcrumbs: false
 # search: true

@@ -10,7 +10,7 @@
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search">
           <a href="{{ site.url }}{{ site.baseurl }}/">
-            <img src="{{ '/assets/img/logo.jpg' | relative_url }}" class="logo" alt="Logo"/>
+            <img src="{{ '/static/img/logo.jpg' | relative_url }}" class="logo" alt="Logo"/>
           </a>
         </div>
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
@@ -50,21 +50,5 @@
       </div>
     </section>
   </div>
-  <script type="text/javascript" src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
-  <script type="text/javascript" src="{{ '/assets/js/underscore.js' | relative_url }}"></script>
-  <script type="text/javascript" src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-  <script type="text/javascript">
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enableSticky();
-      });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.3.0/highlightjs-line-numbers.min.js"></script>
-  <script>
-    document.querySelectorAll('div.hljs > pre').forEach(function(block) {
-      hljs.highlightBlock(block);
-      hljs.lineNumbersBlock(block);
-    });
-  </script>
 </body>
 </html>
