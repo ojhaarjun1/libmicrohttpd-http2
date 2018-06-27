@@ -6,6 +6,9 @@
           {{ site.title }}
         </a>
       </h1>
+      {% if site.logo %}
+        <img src="{{ site.logo | relative_url }}" alt="Logo" />
+      {% endif %}
       <p class="lead">{{ site.description }}</p>
     </div>
 
@@ -21,21 +24,13 @@
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
 
-      {% if site.show_downloads %}
-      <ul class="downloads">
-        <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-        <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-        <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-      </ul>
-      {% endif %}
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+      <a class="sidebar-nav-item" href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a>
+      <a class="sidebar-nav-item" href="{{ site.github.repository_url }}">GitHub project</a>
       <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
 
       {% if site.github.is_project_page %}
