@@ -19,28 +19,14 @@
       {% if page.sidebar.title %}<h3 class="">{{ page.sidebar.title }}</h3>{% endif %}
         {% for nav in navigation %}
             {% if nav.url %}
-              {% if nav.url contains "://" %}
-                {% assign nav_url = nav.url %}
-                {% assign nav_url_type = 'external' %}
-              {% else %}
-                {% assign nav_url = nav.url | relative_url %}
-                {% assign nav_url_type = 'internal' %}
-              {% endif %}
-
-              <a class="reference {{ nav_url_type }}" href="{{ nav_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+              <a class="sidebar-nav-item" href="{{ nav_url | relative_url }}">{{ nav.title }}</a>
             {% else %}
-              <span class="nav__sub-title">{{ nav.title }}</span>
+              <span class="sidebar-nav-item">{{ nav.title | upcase }}</span>
             {% endif %}
 
             {% if nav.children != null %}
               {% for child in nav.children %}
-                {% if child.url contains "://" %}
-                  {% assign child_url = child.url %}
-                {% else %}
-                  {% assign child_url = child.url | relative_url %}
-                {% endif %}
-
-                <a href="{{ child_url }}" class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">{{ child.title }}</a>
+                <a href="{{ child_url | relative_url }}" class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">{{ child.title }}</a>
               {% endfor %}
             {% endif %}
         {% endfor %}
