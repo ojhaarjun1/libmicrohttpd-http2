@@ -2,24 +2,28 @@ navbar:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
-        url: /quick-start-guide/
+        url:   /quick-start-guide/
       - title: "Structure"
-        url: /structure/
+        url:   /structure/
       - title: "Installation"
-        url: /installation/
+        url:   /installation/
       - title: "Upgrading"
-        url: /upgrading/
+        url:   /upgrading/
 
-  - title: Writing a server
+  - title: Examples
     children:
       - title: "Serving static files"
-        url: /writing-a-server/
+        url:   /writing-a-server/
       - title: "REST API"
-        url: /rest-server/
+        url:   /rest-server/
       - title: "Querying a DB"
-        url: /db-server/
+        url:   /db-server/
       - title: "HTTP/2 Push"
-        url: /push-server/
+        url:   /push-server/
 
-  - title: Questions and Answers
-    url: https://github.com/maru/libmicrohttpd-http2/issues?q=label%3Aquestion-answered
+  - title: Links
+    children:
+      - title: "Download (tar.gz)"
+        url:   https://github.com/maru/libmicrohttpd-http2/archive/master.tar.gz
+      - title: "GitHub project"
+        url:   https://github.com/maru/libmicrohttpd-http2/
