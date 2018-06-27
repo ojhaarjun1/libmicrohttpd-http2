@@ -2,13 +2,13 @@ navbar:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+        url: /quick-start-guide/
       - title: "Structure"
-        url: /docs/structure/
+        url: /structure/
       - title: "Installation"
-        url: /docs/installation/
+        url: /installation/
       - title: "Upgrading"
-        url: /docs/upgrading/
+        url: /upgrading/
 
   - title: Writing a server
     children:
