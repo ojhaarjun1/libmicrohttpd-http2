@@ -1,54 +1,15 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
+<html lang="en-us">
+
   {% include head.html %}
-</head>
-<body class="wy-body-for-nav">
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
-          <a href="{{ site.url }}{{ site.baseurl }}/">
-            <img src="{{ '/static/img/logo.jpg' | relative_url }}" class="logo" alt="Logo"/>
-          </a>
-        </div>
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          {% include sidebar.html %}
-        </div>
-      </div>
-    </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-      <nav class="wy-nav-top" aria-label="top navigation">
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">libmicrohttpd-http2</a>
-      </nav>
+  <body>
 
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <!-- <div role="navigation" aria-label="breadcrumbs navigation">
-            <ul class="wy-breadcrumbs">
-                <li><a href="#">Docs</a> &raquo;</li>
-                <li>Welcome to libmicrohttpd-http2</li>
-            </ul>
-            <hr/>
-          </div> -->
+    {% include sidebar.html %}
 
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-            <div itemprop="articleBody">
-              <div class="section" id="welcome-to-libmicrohttpd-http2">
-                <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-                {{ content }}
-              </div>
-            </div>
-          </div>
-          <footer>
-          {% include footer.html %}
-          </footer>
-        </div>
-      </div>
-    </section>
-  </div>
-</body>
+    <div class="content container">
+      {{ content }}
+    </div>
+
+  </body>
 </html>
