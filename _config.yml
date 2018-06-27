@@ -6,8 +6,8 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            libmicrohttpd-HTTP2
-tagline:          'A Jekyll theme'
+title:            'mhd-http2'
+tagline:          'libmicrohttpd-http2'
 description:      'An HTTP/2 implementation for GNU libmicrohttpd'
 url:              'https://maru.github.io'
 baseurl:          '/libmicrohttpd-http2/'
