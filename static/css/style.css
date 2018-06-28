@@ -4,7 +4,9 @@
 html, body {
   font: 100 18px/1.5 'Source Sans Pro',Open Sans,Roboto,'San Francisco',Helvetica,Arial,sans-serif;
 }
-
+.sidebar h1 a {
+  font-size: 29px;
+}
 /* Google Dark base0C */
 .theme-base-314 .sidebar {
   background-color: #3971ED;

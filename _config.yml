@@ -6,7 +6,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            'mhd-http2'
+title:            'libmicrohttpd-http2'
 tagline:          'libmicrohttpd-http2'
 description:      'An HTTP/2 implementation for <br>GNU libmicrohttpd'
 url:              'https://maru.github.io'
