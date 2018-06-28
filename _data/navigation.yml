@@ -13,7 +13,7 @@ navbar:
   - title: Examples
     children:
       - title: "Serving static files"
-        url:   /writing-a-server/
+        url:   /static-files/
       - title: "REST API"
         url:   /rest-server/
       - title: "Querying a DB"
