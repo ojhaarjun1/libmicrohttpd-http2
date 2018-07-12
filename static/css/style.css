@@ -25,3 +25,6 @@ html, body {
   padding-top: 8px;
   font-weight: bold;
 }
+.sidebar img {
+  display: inline;
+}
