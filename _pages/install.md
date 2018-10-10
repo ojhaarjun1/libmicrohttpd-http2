@@ -10,6 +10,11 @@ permalink: /install/
 
 Download the latest version from the [releases page](https://github.com/maru/libmicrohttpd-http2/releases).
 
+## Requirements
+
+libmicrohttpd-http2 needs [nghttp2](https://github.com/nghttp2/nghttp2/releases)
+(minimum v1.31.0).
+
 ## Compile
 
 Configure libmicrohttpd with the ``--enable-http2`` option, compile and install it:
