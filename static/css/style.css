@@ -28,3 +28,6 @@ html, body {
 .sidebar img {
   display: inline;
 }
+.page {
+  font-size: 20px;
+}
