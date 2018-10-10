@@ -1,6 +1,6 @@
 ---
 title: Writing a PUSH server
-permalink: /push-server/
+permalink: /examples/push-server/
 ---
 
 To start a server, you need to create it first. Use:

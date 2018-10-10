@@ -1,14 +1,10 @@
 navbar:
-  # - title: Getting Started
-  #   children:
-  #     - title: "Quick-Start Guide"
-  #       url:   /quick-start-guide/
-  #     - title: "Structure"
-  #       url:   /structure/
-  #     - title: "Installation"
-  #       url:   /installation/
-  #     - title: "Upgrading"
-  #       url:   /upgrading/
+  - title: Getting Started
+    children:
+      - title: "Install"
+        url:   /install/
+      - title: "Create your server"
+        url:   /configuration/
 
   # - title: Examples
   #   children:

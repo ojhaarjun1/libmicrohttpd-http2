@@ -1,6 +1,6 @@
 ---
 title: Writing a REST API server
-permalink: /rest-server/
+permalink: /examples/rest-server/
 ---
 
 To start a server, you need to create it first. Use:

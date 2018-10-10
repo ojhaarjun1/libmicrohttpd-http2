@@ -1,6 +1,6 @@
 ---
-title: Writing a server
-permalink: /writing-a-server/
+title: Connecting to a database
+permalink: /examples/db-server/
 ---
 
 
