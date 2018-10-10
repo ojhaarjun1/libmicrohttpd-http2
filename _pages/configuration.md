@@ -45,16 +45,16 @@ The complete parameter list for the nghttp2_settings_entry structure is
 [detailed here](https://nghttp2.org/documentation/enums.html?#c.nghttp2_settings_id).
 
 Example:
-```
-nghttp2_settings_entry settings[3];
-int slen = 0;
-settings[slen].settings_id = NGHTTP2_SETTINGS_MAX_CONCURRENT_STREAMS;
-settings[slen].value = 100;
-++slen;
+{% highlight c %}
+    nghttp2_settings_entry settings[3];
+    int slen = 0;
+    settings[slen].settings_id = NGHTTP2_SETTINGS_MAX_CONCURRENT_STREAMS;
+    settings[slen].value = 100;
+    ++slen;
 
-d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD | MHD_USE_ERROR_LOG | MHD_USE_HTTP2,
-                      port,
-                      NULL, NULL, &request_cb, NULL,
-                      MHD_OPTION_H2_SETTINGS, slen, settings,
-                      MHD_OPTION_END);
-```
+    d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD | MHD_USE_ERROR_LOG | MHD_USE_HTTP2,
+                          port,
+                          NULL, NULL, &request_cb, NULL,
+                          MHD_OPTION_H2_SETTINGS, slen, settings,
+                          MHD_OPTION_END);
+{% endhighlight %}
