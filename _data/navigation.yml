@@ -3,7 +3,7 @@ navbar:
     children:
       - title: "Install"
         url:   /install/
-      - title: "Create your server"
+      - title: "Configuration"
         url:   /configuration/
 
   # - title: Examples

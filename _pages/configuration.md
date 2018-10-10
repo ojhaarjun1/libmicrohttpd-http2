@@ -25,8 +25,14 @@ The use of HTTP2 is transparent to the application.
 
 ## HTTP/2 settings
 
-HTTP/2 settings of the daemon, which are sent when a new client connection
-occurs. This option should be followed by two arguments:
+When a new client connects to the server, they exchange their HTTP2 settings.
+
+Settings parameters and their default values are detailed in
+[RFC 7540](https://tools.ietf.org/html/rfc7540#section-6.5.2), but
+you can easily modify them.
+
+When creating the server, you need to pass the MHD_OPTION_H2_SETTINGS option
+and it must be followed by two arguments:
  - An integer of type `size_t`, which indicates the number of
    nghttp2_settings_entry.
  - A pointer to a `nghttp2_settings_entry` structure, an array of http2
@@ -34,12 +40,11 @@ occurs. This option should be followed by two arguments:
 Note that the application must ensure that the buffer of the
 second argument remains allocated and unmodified while the
 deamon is running.
-Settings parameters and their default values are detailed in
-https://tools.ietf.org/html/rfc7540#section-6.5.2
 
-The parameters to define in the nghttp2_settings_entry structure is:
-https://nghttp2.org/documentation/enums.html?#c.nghttp2_settings_id
+The complete parameter list for the nghttp2_settings_entry structure is
+[detailed here](https://nghttp2.org/documentation/enums.html?#c.nghttp2_settings_id).
 
+Example:
 ```
 nghttp2_settings_entry settings[3];
 int slen = 0;
@@ -53,9 +58,3 @@ d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD | MHD_USE_E
                       MHD_OPTION_H2_SETTINGS, slen, settings,
                       MHD_OPTION_END);
 ```
-
---encoder-header-table-size=<SIZE>
-            Specify encoder header table size.  The decoder (client)
-            specifies  the maximum  dynamic table  size it  accepts.
-            Then the negotiated dynamic table size is the minimum of
-            this option value and the value which client specified.
