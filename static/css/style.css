@@ -15,6 +15,9 @@ html, body {
 .theme-base-314 .related-posts li a:hover {
   color: #3971ED;
 }
+.content .container {
+  max-width: 68rem;
+}
 .sidebar-about h1 {
   font-size: 2.5rem;
 }
@@ -33,6 +36,7 @@ html, body {
 }
 code, pre {
   font-family: monospace;
+  font-size: 0.95rem;
 }
 figure {
   margin-inline-start: 0;
