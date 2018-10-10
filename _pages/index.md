@@ -13,7 +13,7 @@ Its main feature is the use of a single connection between a client and a server
 Major changes have been introduced in HTTP/2, such as frames,
 multiplexing, flow control, prioritization and
 [header compression](https://tools.ietf.org/html/rfc7541),
-making it very different (even incompatible) from its predecessor HTTP/1.
+making it very different from its predecessor HTTP/1.
 
 ## MHD
 

@@ -1,6 +1,6 @@
 ---
 title: Writing a server
-permalink: /writing-a-server/
+permalink: /examples/static-files/
 ---
 
 

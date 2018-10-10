@@ -1,4 +1,6 @@
 navbar:
+  - title: Home
+    url:   /
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
@@ -13,13 +15,13 @@ navbar:
   - title: Examples
     children:
       - title: "Serving static files"
-        url:   /static-files/
+        url:   /examples/static-files/
       - title: "REST API"
-        url:   /rest-server/
+        url:   /examples/rest-server/
       - title: "Querying a DB"
-        url:   /db-server/
+        url:   /examples/db-server/
       - title: "HTTP/2 Push"
-        url:   /push-server/
+        url:   /examples/push-server/
 
   - title: Links
     children:
@@ -27,3 +29,4 @@ navbar:
         url:   https://github.com/maru/libmicrohttpd-http2/archive/master.tar.gz
       - title: "GitHub project"
         url:   https://github.com/maru/libmicrohttpd-http2/
+notnow:
