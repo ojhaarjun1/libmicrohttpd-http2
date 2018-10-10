@@ -5,6 +5,8 @@ navbar:
         url:   /install/
       - title: "Configuration"
         url:   /configuration/
+      - title: "About"
+        url:   /about/
 
   # - title: Examples
   #   children:
