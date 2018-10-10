@@ -1,5 +1,6 @@
 ---
 title: Configuration
+permalink: /configuration/
 ---
 
 * TOC
@@ -33,10 +34,10 @@ occurs. This option should be followed by two arguments:
 Note that the application must ensure that the buffer of the
 second argument remains allocated and unmodified while the
 deamon is running.
-Settings parameters and their default values are defined in
+Settings parameters and their default values are detailed in
 https://tools.ietf.org/html/rfc7540#section-6.5.2
 
-The list of settings to pass in the nghttp2_settings_entry structure is:
+The parameters to define in the nghttp2_settings_entry structure is:
 https://nghttp2.org/documentation/enums.html?#c.nghttp2_settings_id
 
 ```

@@ -1,5 +1,6 @@
 ---
 title: Install
+permalink: /install/
 ---
 
 * TOC
