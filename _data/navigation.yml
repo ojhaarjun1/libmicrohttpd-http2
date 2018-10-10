@@ -1,6 +1,15 @@
 navbar:
   - title: Home
     url:   /
+
+  - title: Links
+    children:
+      - title: "Download (tar.gz)"
+        url:   https://github.com/maru/libmicrohttpd-http2/archive/master.tar.gz
+      - title: "GitHub project"
+        url:   https://github.com/maru/libmicrohttpd-http2/
+
+notnow:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
@@ -22,11 +31,3 @@ navbar:
         url:   /examples/db-server/
       - title: "HTTP/2 Push"
         url:   /examples/push-server/
-
-  - title: Links
-    children:
-      - title: "Download (tar.gz)"
-        url:   https://github.com/maru/libmicrohttpd-http2/archive/master.tar.gz
-      - title: "GitHub project"
-        url:   https://github.com/maru/libmicrohttpd-http2/
-notnow:
