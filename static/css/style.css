@@ -15,7 +15,7 @@ html, body {
 .theme-base-314 .related-posts li a:hover {
   color: #3971ED;
 }
-.content .container {
+.content {
   max-width: 68rem;
 }
 .sidebar-about h1 {
