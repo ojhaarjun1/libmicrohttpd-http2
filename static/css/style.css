@@ -31,3 +31,6 @@ html, body {
 .page {
   font-size: 20px;
 }
+code, pre {
+  font-family: monospace;
+}
