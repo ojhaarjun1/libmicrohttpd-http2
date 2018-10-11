@@ -8,7 +8,7 @@ permalink: /about/
 
 ## Who developed libmicrohttpd-http2?
 
-Hi :) My name is [Maru Berezin](https://github.com/maru) and I developed code as
+Hi :) My name is [Maru Berezin](https://github.com/maru) and I developed this code as
 a personal project.
 
 ## Can I use libmicrohttpd-http2 in production?
