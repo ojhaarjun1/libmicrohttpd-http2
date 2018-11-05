@@ -7,13 +7,13 @@ html, body {
 .sidebar h1 a {
   font-size: 29px;
 }
-/* Google Dark base0C */
+/* Curl */
 .theme-base-314 .sidebar {
-  background-color: #3971ED;
+  background-color: #093754;
 }
 .theme-base-314 .content a,
 .theme-base-314 .related-posts li a:hover {
-  color: #3971ED;
+  color: #093754;
 }
 .content {
   max-width: 68rem;
