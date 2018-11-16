@@ -8,9 +8,9 @@ permalink: /configuration/
 
 ## I want to use HTTP/2 in my MHD server!
 
-If you already have a MHD application, you just need to include the ``microhttpd_http2.h``
+In your MHD application, just include the ``microhttpd_http2.h``
 header and add the ``MHD_USE_HTTP2`` flag when creating the MHD_Daemon.
-And you're done!
+And you're done! The use of HTTP2 is transparent to the application.
 
 {% highlight c %}
 #include <microhttpd_http2.h>
@@ -25,7 +25,6 @@ d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD | MHD_USE_E
                       MHD_OPTION_END);
 {% endhighlight %}
 
-The use of HTTP2 is transparent to the application.
 
 
 ## HTTP/2 settings
