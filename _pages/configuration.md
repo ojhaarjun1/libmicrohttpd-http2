@@ -6,10 +6,10 @@ permalink: /configuration/
 * TOC
 {:toc}
 
-## I want to use HTTP/2 with my MHD server!
+## I want to use HTTP/2 in my MHD server!
 
 If you already have a MHD application, you just need to include the ``microhttpd_http2.h``
-header and add the HTTP2 flag when creating the MHD_Daemon.
+header and add the ``MHD_USE_HTTP2`` flag when creating the MHD_Daemon.
 And you're done!
 
 {% highlight c %}
