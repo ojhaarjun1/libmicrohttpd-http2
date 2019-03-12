@@ -53,7 +53,8 @@ Example:
 {% highlight c %}
 const int slen = 1;
 h2_settings_entry settings[] = {
-    { .settings_id = NGHTTP2_SETTINGS_MAX_CONCURRENT_STREAMS, .value = 100 },
+    { .settings_id = NGHTTP2_SETTINGS_MAX_CONCURRENT_STREAMS,
+      .value = 100 },
 };
 
 d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD | MHD_USE_ERROR_LOG | MHD_USE_HTTP2,
