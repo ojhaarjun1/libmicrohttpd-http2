@@ -25,6 +25,22 @@ d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD | MHD_USE_E
                       MHD_OPTION_END);
 {% endhighlight %}
 
+### Only protocol HTTP/2
+
+Use the flag ``MHD_USE_HTTP2_ONLY`` to enable only protocol HTTP/2 in your MHD_Daemon.
+
+{% highlight c %}
+#include <microhttpd_http2.h>
+
+[..]
+
+struct MHD_Daemon *d;
+
+d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD | MHD_USE_ERROR_LOG | MHD_USE_HTTP2_ONLY,
+                      port,
+                      NULL, NULL, &request_cb, NULL,
+                      MHD_OPTION_END);
+{% endhighlight %}
 
 
 ## HTTP/2 settings
