@@ -51,11 +51,10 @@ The complete parameter list for the h2_settings_entry structure is
 Example:
 
 {% highlight c %}
-h2_settings_entry settings[3];
-int slen = 0;
-settings[slen].settings_id = NGHTTP2_SETTINGS_MAX_CONCURRENT_STREAMS;
-settings[slen].value = 100;
-++slen;
+const int slen = 1;
+h2_settings_entry settings[] = {
+    { .settings_id = NGHTTP2_SETTINGS_MAX_CONCURRENT_STREAMS, .value = 100 },
+};
 
 d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD | MHD_USE_ERROR_LOG | MHD_USE_HTTP2,
                       port,
