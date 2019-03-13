@@ -19,8 +19,8 @@ And you're done! The use of HTTP2 is transparent to the application.
 
 struct MHD_Daemon *d;
 
-d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD |
-                      MHD_USE_ERROR_LOG | MHD_USE_HTTP2,
+d = MHD_start_daemon (MHD_USE_HTTP2 |
+                      MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD,
                       port,
                       NULL, NULL, &request_cb, NULL,
                       MHD_OPTION_END);
@@ -37,8 +37,8 @@ Use the flag ``MHD_USE_HTTP2_ONLY`` to enable only protocol HTTP/2 in your MHD_D
 
 struct MHD_Daemon *d;
 
-d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD |
-                      MHD_USE_ERROR_LOG | MHD_USE_HTTP2_ONLY,
+d = MHD_start_daemon (MHD_USE_HTTP2_ONLY |
+                      MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD,
                       port,
                       NULL, NULL, &request_cb, NULL,
                       MHD_OPTION_END);
@@ -70,15 +70,15 @@ Example:
 
 {% highlight c %}
 const int slen = 1;
-h2_settings_entry settings[] = {
+h2_settings_entry h2_settings[] = {
     { .settings_id = NGHTTP2_SETTINGS_MAX_CONCURRENT_STREAMS,
       .value = 100 },
 };
 
-d = MHD_start_daemon (MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD |
-                      MHD_USE_ERROR_LOG | MHD_USE_HTTP2,
+d = MHD_start_daemon (MHD_USE_HTTP2 |
+                      MHD_USE_AUTO | MHD_USE_INTERNAL_POLLING_THREAD,
                       port,
                       NULL, NULL, &request_cb, NULL,
-                      MHD_OPTION_HTTP2_SETTINGS, slen, settings,
+                      MHD_OPTION_HTTP2_SETTINGS, slen, h2_settings,
                       MHD_OPTION_END);
 {% endhighlight %}
