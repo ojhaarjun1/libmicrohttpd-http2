@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: []
+permalink: /the-project/
 title: The project
 date: 2017-09-18
 ---
