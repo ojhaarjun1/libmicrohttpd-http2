@@ -36,8 +36,8 @@ html, body {
 }
 code, pre {
   font-family: monospace;
+  font-size: 0.90rem;
   color: midnightblue;
-  padding: 0;
 }
 figure {
   margin-inline-start: 0;

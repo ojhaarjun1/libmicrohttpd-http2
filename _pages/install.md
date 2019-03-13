@@ -20,12 +20,12 @@ libmicrohttpd-http2 needs [nghttp2](https://github.com/nghttp2/nghttp2/releases)
 Configure libmicrohttpd with the ``--enable-http2`` option, compile and install it:
 
 {% highlight shell %}
-    ./configure --enable-http2
-    make && sudo make install
+./configure --enable-http2
+make && sudo make install
 {% endhighlight %}
 
 If libnghttp2 is not in a default library directory, explicitly state the path:
 
 {% highlight shell %}
-    ./configure --enable-http2 --with-nghttp2=/path/to/libnghttp2
+./configure --enable-http2 --with-nghttp2=/path/to/libnghttp2
 {% endhighlight %}
